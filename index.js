@@ -68,6 +68,9 @@ run().catch(console.dir);
 app.get('/', (req,res) =>{
     res.send("This is Genius car mechanics");
 });
+app.get('/hello', (req,res) =>{
+    res.send("Hello api");
+});
 
 
 app.listen(port,()=>{
